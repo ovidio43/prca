@@ -26,8 +26,10 @@
                     <ul class="nav navbar-nav float_left menu_hover">
                     <li class="section_singin">
                       <a class="user_icon"href="#">
-                        <span class="log_icon_user">I</span>
-                        <i class="glyphicon glyphicon-user hw-phone fa-lg"></i>
+                        <!--<span class="log_icon_user">I</span>-->
+                        <span class="wrapp_log_user">
+                          <i class="glyphicon glyphicon-user hw-phone fa-lg"></i>
+                        </span>
                         SIGN IN
                       </a>
                       <div class="block_form_user">
@@ -96,7 +98,7 @@
                         </li>
                         </ul>
                     </li>
-                    <li><a href="#">prorodeo.com</a></li>
+                    <li class="cprorodeo"><a href="#">prorodeo.com</a></li>
                   </ul>
                   </div>
               </div>

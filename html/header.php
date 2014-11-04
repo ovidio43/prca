@@ -27,9 +27,9 @@
                           <li class="section_singin">
                               <a class="user_icon"href="#">
                                 <!--<span class="log_icon_user">I</span>-->
-                                <span class="wrapp_log_user">
+                                
                                   <i class="glyphicon glyphicon-user hw-phone fa-lg"></i>
-                                </span>
+                                
                                 SIGN IN
                               </a>
                               <div class="block_form_user">
@@ -125,8 +125,8 @@
                       <li><a href="#"> ABOUT </a></li>
                       <li><a href="#">MEMBERSHIP</a></li>
                       <li><a href="#">COMMITTEES</a></li>
-                      <li class="dropdown">
-                          <a href="#" class="dropdown-toggle link_color" data-toggle="dropdown">
+                      <li class="dropdown active">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                               BUSINESS JOURNAL
                           </a>
                           <ul class="dropdown-menu row block_menu_journal">

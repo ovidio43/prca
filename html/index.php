@@ -4,7 +4,7 @@
     		<span class="back_right"></span>
 	    	<div class="wrapp_content">
 		    	<div class="wrapp_section_detail">
-			    	<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+			    	<div class="nav-left">
 			    		<ul class="nav navbar-nav block_dropdown">
 			    			<li><a class="txt_active" href="#">OVERVIEW</a></li>
 		          			<li class="dropdown">
@@ -14,7 +14,7 @@
 					              		<i class="glyphicon glyphicon-chevron-down fa fa-caret-down"></i>
 					              	</span>
 					            </a>
-					            <ul class="dropdown-menu row">
+					            <ul class="dropdown-menu ">
 					              <li><a href="#">LONG LISTINGS</a></li>
 					              <li><a href="#">SHORT LISTINGS</a></li>
 					              <li><a href="#">OPENINGS & CLOSINGS</a></li>
@@ -27,7 +27,7 @@
 					              		<i class="glyphicon glyphicon-chevron-down fa fa-caret-down"></i>
 					              	</span>
 					            </a>
-					            <ul class="dropdown-menu row">
+					            <ul class="dropdown-menu ">
 					              <li><a href="#">BULLETING BOARD</a></li>
 					              <li><a href="#">GENERAL NOTICES</a></li>
 					              <li><a href="#">SPECIAL NOTICES</a></li>
@@ -41,21 +41,21 @@
 					              		<i class="glyphicon glyphicon-chevron-down fa fa-caret-down"></i>
 					              	</span>
 					            </a>
-					            <ul class="dropdown-menu row">
+					            <ul class="dropdown-menu ">
 					              <li><a href="#">RODEO ENTRY INFORMATION</a></li>
 					              <li><a href="#">RULES & REGULATIONS</a></li>
 					            </ul>
 					        </li>
 				        </ul>
 			    	</div>
-			    	<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+			    	<div class="right-content">
 			    		<div class="img_home">
 			    			<img src="../img/img_primary_home_one.jpg">
 			    			<div class="description_img_title">
 			    				<h3>2014</h3>
 			    				<h4>UPDATED 5.25</h4>
 			    				<h1>Business</h1>
-			    				<h2>Journal</h2>
+			    				<h2>JOURNAL</h2>
 			    			</div>
 			    		</div>
 			    		<div class="row block_img_three">

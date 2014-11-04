@@ -22,84 +22,90 @@
         <div class="body_content">
             <div class="wrapp_content ovheight">
                   <div class="nav navbar-nav navbar-right">
-                    <div class="background_menu_on"></div>
-                    <ul class="nav navbar-nav float_left menu_hover">
-                    <li class="section_singin">
-                      <a class="user_icon"href="#">
-                        <!--<span class="log_icon_user">I</span>-->
-                        <span class="wrapp_log_user">
-                          <i class="glyphicon glyphicon-user hw-phone fa-lg"></i>
-                        </span>
-                        SIGN IN
-                      </a>
-                      <div class="block_form_user">
-                        <form action="" method="post" id="form_1" name="form_1">
-                          <input type="text" name="id_number" class="id_number" placeholder="ID Number">
-                          <input type="text" name="password" class="password" placeholder="Password">
-                          <div class="block_help">
-                            <input type="checkbox" name="Keep" class="keep" value=""> Keep me signed in
-                            <a href="#" class="help_form">Help <span class="help_questions">?</span></a>
-                          </div>
-                          <input type="submit" value="SIGN IN" class="btn_signing">
-                          <input type="submit" value="REGISTER" class="register">
-                        </form>
-                      </div>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle calerts" data-toggle="dropdown">
-                            <span class="num_menu">2</span>ALERTS</a>
-                        </a>
-                        <ul class="dropdown-menu row menu_header_primary ">
-                            <li class="dropdown-submenu">
-                              <a href="#">
-                                Rodeo Pay-Queen Creek, AZ-3/10/2013
-                                <i class="glyphicon glyphicon-chevron-down"></i>
+                        <div class="background_menu_on"></div>
+                        <ul class="nav navbar-nav float_left menu_hover">
+                          <li class="section_singin">
+                              <a class="user_icon"href="#">
+                                <!--<span class="log_icon_user">I</span>-->
+                                <span class="wrapp_log_user">
+                                  <i class="glyphicon glyphicon-user hw-phone fa-lg"></i>
+                                </span>
+                                SIGN IN
                               </a>
-                              <ul class="dropdown-menu">
-                                <li><a href="#">
-                                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
-                                  </a>
-                                </li>
-                              </ul>
-                        </li>
-                        <li class="dropdown-submenu">
-                              <a href="#">
-                                Site Maintenance Jan 24th at 3PM (MT)
-                                <i class="glyphicon glyphicon-chevron-down"></i>
+                              <div class="block_form_user">
+                                <form action="" method="post" id="form_1" name="form_1">
+                                  <input type="text" name="id_number" class="id_number" placeholder="ID Number">
+                                  <input type="text" name="password" class="password" placeholder="Password">
+                                  <div class="block_help">
+                                    <input type="checkbox" name="Keep" class="keep" value=""> Keep me signed in
+                                    <a href="#" class="help_form">Help <span class="help_questions">?</span></a>
+                                  </div>
+                                  <input type="submit" value="SIGN IN" class="btn_signing">
+                                  <input type="submit" value="REGISTER" class="register">
+                                </form>
+                              </div>
+                          </li>
+                          <li class="dropdown section_singin">
+                              <a href="#" class="dropdown-toggle calerts" data-toggle="dropdown">
+                                  <span class="num_menu">2</span>ALERTS</a>
                               </a>
-                              <ul class="dropdown-menu">
-                                <li><a href="#">
-                                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
-                                </a></li>
-                              </ul>
-                        </li>
-                        <li class="dropdown-submenu">
-                              <a href="#">
-                                Winnie, TX-Cancelled 10/31/2014
-                                <i class="glyphicon glyphicon-chevron-down"></i>
-                              </a>
-                              <ul class="dropdown-menu">
-                                <li><a href="#">
-                                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
-                                </a></li>
-                              </ul>
-                        </li>
-                        <li class="dropdown-submenu">
-                              <a href="#">
-                                Site Maintenance Jan 24th at 3PM (MT)
-                                <i class="glyphicon glyphicon-chevron-down"></i>
-                              </a>
-                              <ul class="dropdown-menu">
-                                <li><a href="#">
-
-                                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
-                                </a></li>
-                              </ul>
-                        </li>
-                        </ul>
-                    </li>
-                    <li class="cprorodeo"><a href="#">prorodeo.com</a></li>
-                  </ul>
+                              <ul class="dropdown-menu row menu_header_primary ">
+                                  <li class="dropdown-submenu">
+                                    <a href="#">
+                                      Rodeo Pay-Queen Creek, AZ-3/10/2013
+                                      <i class="glyphicon glyphicon-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">
+                                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+                                            </a>
+                                        </li>
+                                    </ul>
+                                  </li>
+                                  <li class="dropdown-submenu">
+                                        <a href="#">
+                                          Site Maintenance Jan 24th at 3PM (MT)
+                                          <i class="glyphicon glyphicon-chevron-down"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                          <li>
+                                              <a href="#">
+                                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+                                              </a>
+                                          </li>
+                                        </ul>
+                                  </li>
+                                  <li class="dropdown-submenu">
+                                        <a href="#">
+                                          Winnie, TX-Cancelled 10/31/2014
+                                          <i class="glyphicon glyphicon-chevron-down"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                              <a href="#">
+                                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+                                              </a>
+                                            </li>
+                                        </ul>
+                                  </li>
+                                  <li class="dropdown-submenu">
+                                        <a href="#">
+                                          Site Maintenance Jan 24th at 3PM (MT)
+                                          <i class="glyphicon glyphicon-chevron-down"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                          <li>
+                                            <a href="#">
+                                              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+                                            </a>
+                                          </li>
+                                        </ul>
+                                  </li>
+                                </ul>
+                          </li>
+                          <li class="cprorodeo section_singin"><a href="#">prorodeo.com</a></li>
+                      </ul>
                   </div>
               </div>
               <div class="block_log_menu navbar-default navbar-fixed-top">

@@ -62,7 +62,7 @@ h1{
 .glyphicon-user{
 	padding-right: 19px;
 	position: absolute;
-	left: 0px;
+	left: 10px;
 	top: 13px;
 	font-size: 20px;
 }
@@ -117,14 +117,18 @@ h1{
 .title_table{
 	position: relative;
 	display: block;
-	overflow: hidden;
+	width: 100%;
 	font-weight: bold;
 	font-size: 15px;
 	background-color: #f4f4f0;
 	padding: 10px;
 	font-family: 'Fjalla One', sans-serif;
-	.glyphicon-chevron-up{
+	.glyphicon-chevron-down{
 		float: right;
+	}
+	&:before{
+		display: table;
+		content: "";
 	}
 }
 .weight_bold{
@@ -146,8 +150,28 @@ h1{
 .navbar-toggle{
 	margin-top: 24px;
 }
+.drop_content_table{
+	float: none !important;
+	width: 100% !important;
+	.dropdown{
+		width: 100%;
+	}
+}
+.drop_content_table .dropdown.open{
+	.table-responsive{
+		display: block;
+	}
+	.glyphicon-chevron-down{
+		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+		-webkit-transform: scale(1, -1);
+		-moz-transform: scale(1, -1);
+		-ms-transform: scale(1, -1);
+		-o-transform: scale(1, -1);
+		transform: scale(1, -1);
+	}
+}
 .table-responsive{
-	margin-top: 30px;
+	display: none;
 }
 .background_journal{
 	position: relative;
@@ -333,6 +357,8 @@ h1{
 	width: 250px;
 	padding-top: 0px;
 	padding-bottom: 0px;
+	left: -1px !important;
+	top: 97%;
 }
 .menu_header_primary li.dropdown-submenu{
 	background-color: #000 !important;
@@ -387,6 +413,7 @@ h1{
 	a{
 		color: #fff;
 		background-color:#000 !important;
+		padding-bottom: 0px;
 		.glyphicon-chevron-down{
 			filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
 			-webkit-transform: scale(1, -1);
@@ -397,6 +424,8 @@ h1{
 		}
 	}
 	.dropdown-menu li a	{
+		position: relative;
+		top: -5px;
 		color: #fff;
 		background-color: #000;
 		border: none;
@@ -469,6 +498,7 @@ h1{
 .block_dropdown .dropdown>.dropdown-menu{
 	padding: 0px;
 	background-color: #3a3935;
+	border: none;
 }
 .block_menu_journal li>a:hover{
 	background-color: transparent !important;
@@ -483,7 +513,7 @@ h1{
 	background-color: #3a3935;
 }
 .block_dropdown > .dropdown.open > a{
-	background-color: #3a3935;
+	background-color: #373633;
 }
 .block_dropdown .dropdown .dropdown-menu li a{
 	background-color: #3a3935 !important;
@@ -507,7 +537,7 @@ h1{
 	color: #fff !important;
 }
 .section_singin .user_icon{
-	padding-left: 35px;
+	padding-left: 50px;
 }
 .no_padding_link{
 	padding-right: 0px !important;
@@ -580,7 +610,7 @@ h1{
 	position: absolute;
 	z-index: 999;
 	top: 13px;
-	left: 11px;
+	left: 23px;
 	font-size: 12px;
 	background-color: red;
 	width: 18px;
@@ -597,6 +627,191 @@ h1{
 	.block_form_user{
 		display: block;
 	}
+}
+.block_show_only_global{
+	position: relative;
+	display: block;
+	width: 100%;
+	padding: 25px 25px 10px;
+	float: left;
+	background-image: url('../img/back_long_listengs.png');
+	.starred{
+		width: 30%;
+		padding-left: 20px;
+		float:right;
+		color: #737269;
+		font-size: 15px;
+		font-family: 'Fjalla One', sans-serif;
+		.glyphicon-star{
+			float: right;
+		}
+	}
+	hr{
+		float: left;
+		display: block;
+		width: 100%;
+		margin-top: 10px;
+		border-color: #737269;
+	}
+	h4{
+		font-size: 22px;
+		color:#000;
+		display: block;
+		float: left;
+		width: 100%;
+		font-family: Arvo,serif !important;
+	}
+	.blok_search{
+		position: relative;
+		width: 70%;
+		float: left;
+		background-color: #fff;
+		border-top: 2px solid #7d7d7d;
+		form{
+			position: relative;
+			float: left;
+			width: 100%;
+			padding-right: 30px;
+			.txt_search{
+				width: 100%;
+				display: block;
+				min-height: 30px;
+				border: 0px;
+				padding: 5px 15px;
+			}
+			.bottom_search{
+				position: absolute;
+				background-color: #fff;
+				right: 0px;
+				background-repeat: no-repeat;
+			    background-position: center;
+				font-size: 13px;
+				background-color: #fff;
+				background-image: url('../img/seach_log.png');
+				z-index: 9;
+				height: 25px;
+				width: 25px;
+				top: 0;
+				bottom: 0;
+				margin: auto;
+				border: 0px;
+			}
+		}
+	}
+	.result_search{
+		position: relative;
+		float: left;
+		width: 100%;
+		.margin_spacing{
+			margin-bottom: 30px;
+		}
+		.block_global_date{
+			position: relative;
+			width: 100%;
+			display: block;
+			float: left;
+			background-color: rgba(255,255,255,0.5);
+		}
+		.block_two_date{
+			position: relative;
+			float: left;
+			width: 75%;
+			padding-right: 25px;
+			padding-bottom: 16px;
+			h2{
+				color: #000;
+				font-size: 25px;
+				font-family: 'Fjalla One', sans-serif;
+			}
+			.content_date_hours{
+				position: relative;
+				width: 100%;
+				color: #848379;
+			}
+			.link_date_hours{
+				position: absolute;
+				width: 25px;
+				top: 0px;
+				bottom: 0px;
+				margin: auto;
+				right: 0px;
+				background-color: #737269;
+				&:hover{
+					background-color:#3a3935;
+				}
+				.glyphicon-chevron-right{
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					margin: auto;
+					text-align: center;
+					color: #fff;
+					font-weight: 15px;
+				}
+			}
+		}
+		.block_one_date{
+			position: relative;
+			float: left;
+			width: 25%;
+			padding: 20px 10px 16px;
+			hr{
+				border-color:#8b0b04;
+			}
+			.glyphicon-star{
+				position: relative;
+				text-align: center;
+				display: block;
+				color: #bcbbb2;
+				padding-bottom: 10px;
+			}
+			.date_hours{
+				position: relative;
+				display: block;
+				color: #8b0b04;
+				text-align: center;
+				font-weight: bold;
+				font-size: 15px;
+				text-transform: uppercase;
+				font-family: 'Fjalla One',sans-serif;
+			}
+		}
+	}
+
+}
+.block_primary_log{
+	margin-top: 10px;
+	position: relative;
+	width: 100%;
+	float: left;
+	.nav {
+		display: block;
+		width: 100%;
+		background-color: #737269;
+		li.width_equal{
+			width: 20%;
+			position: relative;
+			border-right: 1px solid #5c5b54;
+			&:last-child{
+				border-right: none;
+			}
+			a {
+				position: relative;
+				color: #e4e2d0;
+				&:hover{
+					color:#737268;
+					background-color: #5c5b54 !important;
+				}
+				.glyphicon-chevron-down{
+					position: absolute;
+					right: 10px;
+					top: auto;
+				}
+
+			}
+		}
+	}
+	
 }
 .block_form_user{
 	left: 0px;
